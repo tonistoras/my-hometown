@@ -1,0 +1,142 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+/* *,
+*::before,
+*::after {
+  box-sizing: borderbox;
+} */
+
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Spinnaker', sans-serif;
+  background:#E5E5E5;
+  line-height: 120%;
+}
+
+img {
+  width: 120px;
+  height: 120px;
+}
+
+#hero {
+  margin: 10px auto 0px auto;
+  width: 720px;
+  height:380px;
+  background-image: url(images/vaasa-ilmasta.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px 20px 0 0;
+}
+
+h1 {
+  margin: 50px 0 0 0;
+  width: 201;
+  padding:10px 15px 10px 15px;
+  background: #457B9D;
+  color: #ffffff;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+h2 {
+  width: 412;
+  padding:10px 15px 10px 15px ;
+  background:#1D3557 ;
+  color: #ffffff;
+  border-radius: 10px;
+}
+
+h3, h4, p {
+  color: #1D3557;
+}
+
+#activities {
+  margin: 0 auto;
+  width: 720px;
+  
+  background: #F1FAEE;
+  border: 1px solid #F1FAEE;
+}
+
+#activities-title {
+  margin-top: 39px;
+}
+
+#activities-container-outer {
+  margin-top: 54px;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.activities-container-inner {
+  margin: 0px 5px 0px 5px;
+  padding: 10px;
+}
+
+#activities-archipelago-img {
+  border-radius: 50%;
+  margin-bottom: 40px;
+}
+
+
+#activities-bike-img {
+  border-radius: 50%;
+  margin-bottom: 40px;
+  
+}
+
+#activities-hike-img {
+  border-radius: 50%;
+  margin-bottom: 40px;
+  
+}
+
+#activities-archipelago-img:hover,
+#activities-bike-img:hover,
+#activities-hike-img:hover {
+  transform: scale(1.6);
+  box-shadow: 0 0 10px #457B9D;
+}
+
+#guide {
+  margin: 0 auto;
+  width: 720px;
+  height: 394px;
+  background: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+#guide-card {
+  margin: 50px auto;
+  width: 400px;
+  height: 294px;
+  background: #A8DADC;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #457B9D;
+}
+
+#guide-img {
+  margin:20px;
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(#457B9D, 25%, #ffffff  75%);
+  border-radius: 10px;
+}
+
+#guide-text {
+  padding: 20px;
+}
